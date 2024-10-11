@@ -27,7 +27,7 @@ export default function Modaltypescript() {
     }
 
     function handleSend(event: React.FormEvent<HTMLFormElement>) {
-        alert("Pedido sendo enviado via Whatapp, caso não haja a cor e o tamanho escolhidos sera avisado por WhatsApp");
+        alert("Pedido sendo enviado via Whatapp, caso não haja  cor e tamanho escolhido será avisado por WhatsApp");
         event.preventDefault(); // Prevenir o recarregamento da página
         const mensagem = `Olá, meu nome é ${nome}, gostaria de comprar o item da cor ${cor} e no tamanho ${tamanho}. Veja a imagem: ${image.url}`;
         const urlWhatsApp = `https://wa.me/5588981244495?text=${encodeURIComponent(mensagem)}`;
