@@ -79,23 +79,23 @@ export const Chevronright = styled.button`
     width: 40px;
     height: 100px;
     border: none;
-
+    padding-left: 5px;
     position: absolute;
     bottom: 50%;
     left: 20px;
-    transform: translate(-50%, -75%);
+    transform: translate(-50%, -90%);
 `;
 
 export const Chevronleft = styled.button`
     background-color: rgba(0, 0, 0, .5);
     width: 40px;
+    padding-left: 5px;
     height: 100px;
     border: none;
-
     position: absolute;
     bottom: 50%;
     right: -20px;
-    transform: translate(-50%, -75%);
+    transform: translate(-50%, -90%);
 
     svg{
         transform: rotate(180deg);

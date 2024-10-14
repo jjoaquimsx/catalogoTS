@@ -1,6 +1,7 @@
 import { Header, Container, Box, Chevronright, Chevronleft, Middle, Box2 } from "./styled"
 import { Link } from "react-router-dom"
 import itemFem from "../../../itemfem.json"
+import itemFem2 from "../../../itemFem2.json"
 import Modal from "react-modal"
 import Modaltypescript from "./modalType/modalType"
 import ModalType from 'react-bootstrap/Modal';
@@ -101,7 +102,7 @@ export default function PageFem(  ) {
             </Container>
 
             <Middle>
-                {itemFem.length > 0 && itemFem.map((item) => (
+                {itemFem2.length > 0 && itemFem2.map((item) => (
                     <Box2 key={item.id}>
                         <img src={item.img} alt="" onClick={() => openModal(item.img)} style={{ objectFit: "cover" }} />
                     </Box2>
